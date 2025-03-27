@@ -5,23 +5,23 @@ XML Concepts, Skills, and Applications
 
 Introduction to XML
 -------------------
-XML (eXtensible Markup Language) is a widely used language for structuring and storing data in a readable format. Unlike HTML, which focuses on displaying content, XML is designed for data storage and transportation. It allows users to define their own tags, making it highly flexible and applicable across different industries.
+During our time on IT6/L together with my Groupmates we learned that XML (Extensible Markup Language) is a widely used language for structuring and storing data in a readable format. Unlike HTML, which focuses on displaying content, XML is designed for data storage and transportation. It allows users to define their own tags, making it highly flexible and applicable across different industries.
 
 Key XML Concepts
 ----------------
 
 ### 1. XML Syntax and Structure
-XML documents follow a hierarchical tree structure with elements enclosed in opening (``<tag>``) and closing (``</tag>``) tags.
-Proper nesting, case sensitivity, and well-formed rules ensure XML document validity.
+- XML documents follow a hierarchical tree structure with elements enclosed in opening (``<tag>``) and closing (``</tag>``) tags.
+- Proper nesting, case sensitivity, and well-formed rules ensure XML document validity.
 
 
 ### 2. XML Elements & Attributes
 - *Elements* store data, while *attributes* provide additional details about elements.
-Attributes should be used wisely to avoid redundancy and improve readability.
+- Attributes should be used wisely to avoid redundancy and improve readability.
 
 
 ### 3. XML Namespaces
-Namespaces prevent conflicts when combining multiple XML documents by defining unique prefixes.
+- Namespaces prevent conflicts when combining multiple XML documents by defining unique prefixes.
 
 
 ### 4. XML Display & Parsing
@@ -32,8 +32,8 @@ XML Processing & Integration
 ----------------------------
 
 ### 1. XML DOM (Document Object Model)
-DOM represents XML documents as a tree, enabling access and manipulation of elements through JavaScript or other programming languages.
-Common DOM operations include accessing, modifying, creating, and deleting XML nodes.
+- DOM represents XML documents as a tree, enabling access and manipulation of elements through JavaScript or other programming languages.
+- Common DOM operations include accessing, modifying, creating, and deleting XML nodes.
 
 
 ### 2. XPath & XSLT
@@ -57,8 +57,8 @@ XML and AJAX Integration
 - *XMLHttpRequest* allows fetching and sending XML data asynchronously, improving web performance.
 
 ### 2. AJAX Applications
-Used in real-time updates, auto-suggestions, and interactive user experiences.
-Common integrations include AJAX with PHP, databases, and APIs.
+- Used in real-time updates, auto-suggestions, and interactive user experiences.
+- Common integrations include AJAX with PHP, databases, and APIs.
 
 
 Real-World Applications of XML
@@ -72,14 +72,14 @@ Critical Analysis
 -----------------
 
 ### Strengths:
-Platform-independent and human-readable.
-Flexible and widely supported in software applications.
-Essential for data exchange in web services and APIs.
+1. Platform-independent and human-readable.
+2. Flexible and widely supported in software applications.
+3. Essential for data exchange in web services and APIs.
 
 
 ### Weaknesses:
-- Can be verbose compared to *JSON*.
-Processing large XML files may require high computational resources.
+1. Can be verbose compared to *JSON*.
+2. Processing large XML files may require high computational resources.
 
 
 ### Alternative Approaches:
@@ -88,4 +88,4 @@ Processing large XML files may require high computational resources.
 
 Conclusion
 ----------
-Understanding XML is crucial in IT, particularly in web development, data management, and system integration. It plays a vital role in modern applications and remains a key technology despite alternatives like JSON. Our study and discussion of XML concepts have strengthened our understanding of data structuring, validation, and real-world implementations.
+In conclusion together with my groupmates we conclude that Understanding XML is crucial in IT, particularly in web development, data management, and system integration. It plays a vital role in modern applications and remains a key technology despite alternatives like JSON. Our study and discussion of XML concepts have strengthened our understanding of data structuring, validation, and real-world implementations.
